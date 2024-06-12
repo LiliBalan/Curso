@@ -9,9 +9,12 @@ on:
       - main
     paths:
       - 'Application/**'
+      - '.github/workflows/dotnet.yml'
   pull_request:
     branches: 
       - main
+    paths:
+      - 'Application/**'
 jobs:
   build:
 
