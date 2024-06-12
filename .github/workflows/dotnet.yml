@@ -6,10 +6,10 @@ name: Reto6
 on:
   push:
     branches: 
-      - 'Application/**'
+      - main/Application/
   pull_request:
     branches: 
-      - 'Application/**'
+      - main/Application/
 
 jobs:
   build:
